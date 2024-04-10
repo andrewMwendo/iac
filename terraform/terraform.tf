@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "cliptech"
+    bucket = "amwendo"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
